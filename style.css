@@ -1,0 +1,68 @@
+body {
+    background-color: black
+}
+h1 {
+  text-align: center;
+  font-family: 'Monoton', cursive;
+  font-size: 45px;
+  color: crimson;
+  text-shadow: 3px 3px 5px rgb(6, 249, 249);
+}
+#container {
+  position: relative;
+  left: 37%;
+  width: 400px;
+  border: 3px solid rgb(0, 0, 0);
+  height: 510px;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 100px crimson;
+}
+#display {
+  margin: 15px;
+  width: 365px;
+  height: 70px;
+  background-color: crimson;
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px rgb(255, 255, 255);
+  border: 3px solid crimson;
+  color: black;
+  font-weight: bolder;
+  font-size: 25px;
+}
+#display:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 5px crimson;
+  box-shadow: 2px 2px 10px crimson, 2px 2px 10px crimson, 2px 2px 10px crimson,
+    -2px -2px 15px crimson;
+}
+#get {
+  display: grid;
+  margin: 10px;
+  column-gap: 8px;
+  row-gap: 8px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+button {
+  height: 70px;
+  border-radius: 35px;
+  box-shadow: 3px 3px 5px white;
+  border: none;
+  font-size: 30px;
+  font-family: "Frijole", cursive;
+  background-color: crimson;
+}
+button:hover {
+  background-color: black;
+  color: crimson;
+  box-shadow: 2px 2px 10px crimson, 2px 2px 10px crimson, 2px 2px 10px crimson,
+    -2px -2px 15px crimson;
+}
+#btn1 {
+  grid-column: span 2;
+}
+#btn2 {
+  grid-column: span 2;
+}

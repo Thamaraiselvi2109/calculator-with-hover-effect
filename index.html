@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Frijole&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/24bc43ef2c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div id="container">
+      <div id="display"></div>
+      <div id="get">
+        <button onclick="calc(1)">1</button>
+        <button onclick="calc(2)">2</button>
+        <button onclick="calc(3)">3</button>
+        <button onclick='calc("+")'>+</button>
+        <button onclick="calc(4)">4</button>
+        <button onclick="calc(5)">5</button>
+        <button onclick="calc(6)">6</button>
+        <button onclick='calc("-")'>-</button>
+        <button onclick="calc(7)">7</button>
+        <button onclick="calc(8)">8</button>
+        <button onclick="calc(9)">9</button>
+        <button onclick='calc("*")'>*</button>
+        <button onclick="del()"><i class="fa-solid fa-delete-left fa-bounce"></i></button>
+        <button onclick="calc(0)">0</button>
+        <button onclick='calc(".")'>.</button>
+        <button onclick='calc("/")'>/</button>
+        <button id="btn1" onclick='clean()'><i class="fa-solid fa-broom-ball fa-shake"></i></button>
+        <button id="btn2" onclick='calculate()'>=</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
